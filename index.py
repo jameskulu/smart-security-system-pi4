@@ -14,7 +14,7 @@ object_classifier = cv2.CascadeClassifier("models/facial_recognition_model.xml")
 # App Globals (do not edit)
 app = Flask(__name__)
 app.config['BASIC_AUTH_USERNAME'] = 'james'
-app.config['BASIC_AUTH_PASSWORD'] = 'madrids'
+app.config['BASIC_AUTH_PASSWORD'] = 'james'
 app.config['BASIC_AUTH_FORCE'] = True
 
 basic_auth = BasicAuth(app)
