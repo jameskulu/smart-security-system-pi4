@@ -18,7 +18,7 @@ object_classifier = cv2.CascadeClassifier(
 # App Globals
 app = Flask(__name__)
 app.config['BASIC_AUTH_USERNAME'] = 'james'
-app.config['BASIC_AUTH_PASSWORD'] = 'madrids'
+app.config['BASIC_AUTH_PASSWORD'] = 'james'
 app.config['BASIC_AUTH_FORCE'] = True
 
 basic_auth = BasicAuth(app)
